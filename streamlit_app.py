@@ -13,6 +13,7 @@ This program gives different view points and visualizations of Crimes reported i
  showing the frequency of crime committed relative to the time of day.(a few sentences about your program and the queries and charts)
 """
 import streamlit as st
+import matplotlib
 import matplotlib.pyplot as plt
 import pydeck as pdk
 import pandas as pd
